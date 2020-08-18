@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 
 import axios from 'axios';
 
+import Table from 'react-bootstrap/lib/Table';
+
 
 
 class App extends Component {
@@ -54,7 +56,7 @@ render() {
 
     <div className="App">
 
-    <h1> Test </h1>
+    <Table> Test </Table>
 
 
     </div>
