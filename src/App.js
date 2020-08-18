@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import './App.css';
+ import './App.css';
 
 import axios from 'axios';
 
@@ -19,6 +19,8 @@ class App extends Component {
 
  
  getFCCData(url, stateName) {
+
+  console.log(1);
 
   axios.get(url)
    .then(({ data }) => {
@@ -51,6 +53,8 @@ render() {
   return (
 
     <div className="App">
+
+    <h1> Test </h1>
 
 
     </div>
